@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pas2-python-rle-codec"
+version = "0.1.0"
+description = "Encode binary runs with bounded decompression."
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "1Pas2"}]
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
